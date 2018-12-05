@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<foundation:EDMDDataSet xmlns:external="http://www.prostep.org/ecad-mcad/edmd/2.0/external" xmlns:annotation="http://www.prostep.org/ecad-mcad/edmd/2.0/annotation" xmlns:material="http://www.prostep.org/ecad-mcad/edmd/2.0/material" xmlns:d2="http://www.prostep.org/ecad-mcad/edmd/2.0/geometry.d2" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:pdm="http://www.prostep.org/ecad-mcad/edmd/2.0/pdm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:idx="http://www.ptc.com/edmd/1.0/idx" xmlns:grouping="http://www.prostep.org/ecad-mcad/edmd/2.0/grouping" xmlns:property="http://www.prostep.org/ecad-mcad/edmd/2.0/property" xmlns:computational="http://www.prostep.org/ecad-mcad/edmd/2.0/computational" xmlns:administration="http://www.prostep.org/ecad-mcad/edmd/2.0/administration" xmlns:foundation="http://www.prostep.org/ecad-mcad/edmd/2.0/foundation">
+  <foundation:Header>
+    <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+      <property:Key>
+        <foundation:SystemScope>ECAD_SYSTEM</foundation:SystemScope>
+        <foundation:ObjectName>IDX_VERSION</foundation:ObjectName>
+      </property:Key>
+      <property:Value>2.0</property:Value>
+    </foundation:UserProperty>
+    <foundation:CreatorSystem>Altium Designer 19.0.8.182</foundation:CreatorSystem>
+    <foundation:GlobalUnitLength>LENGTH_UNIT_ITEM</foundation:GlobalUnitLength>
+  </foundation:Header>
+  <foundation:Body>
+    <foundation:System id="ECAD_SYSTEM">
+      <foundation:GlobalName>Altium Designer</foundation:GlobalName>
+    </foundation:System>
+    <foundation:UnitLength id="LENGTH_UNIT_ITEM">
+      <property:Fundamental>microinch</property:Fundamental>
+    </foundation:UnitLength>
+    <foundation:CartesianPoint id="BOARD_OUTLINE_SHAPE_0_POINT_0">
+      <d2:X>
+        <property:Value>10000000</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>10000000</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="BOARD_OUTLINE_SHAPE_0_POINT_1">
+      <d2:X>
+        <property:Value>98244999</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>9999999</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="BOARD_OUTLINE_SHAPE_0_POINT_2">
+      <d2:X>
+        <property:Value>98244999</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>120449999</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="BOARD_OUTLINE_SHAPE_0_POINT_3">
+      <d2:X>
+        <property:Value>10000000</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>120450000</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:PolyLine id="BOARD_OUTLINE_SHAPE_0_POLYLINE">
+      <d2:Point>BOARD_OUTLINE_SHAPE_0_POINT_0</d2:Point>
+      <d2:Point>BOARD_OUTLINE_SHAPE_0_POINT_1</d2:Point>
+      <d2:Point>BOARD_OUTLINE_SHAPE_0_POINT_2</d2:Point>
+      <d2:Point>BOARD_OUTLINE_SHAPE_0_POINT_3</d2:Point>
+      <d2:Point>BOARD_OUTLINE_SHAPE_0_POINT_0</d2:Point>
+    </foundation:PolyLine>
+    <foundation:CartesianPoint id="TRACE_0_POINT_0">
+      <d2:X>
+        <property:Value>0</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>0</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:CartesianPoint id="TRACE_0_POINT_1">
+      <d2:X>
+        <property:Value>0</property:Value>
+      </d2:X>
+      <d2:Y>
+        <property:Value>0</property:Value>
+      </d2:Y>
+    </foundation:CartesianPoint>
+    <foundation:PolyLine id="TRACE_0">
+      <foundation:Name>EMPTY_LAYER</foundation:Name>
+      <d2:Thickness>
+        <property:Value>0</property:Value>
+      </d2:Thickness>
+      <d2:Point>TRACE_0_POINT_0</d2:Point>
+      <d2:Point>TRACE_0_POINT_1</d2:Point>
+    </foundation:PolyLine>
+    <foundation:CurveSet2d id="TRACE_0_CURVESET">
+      <pdm:ShapeDescriptionType>GeometricModel</pdm:ShapeDescriptionType>
+      <d2:LowerBound>
+        <property:Value>0</property:Value>
+      </d2:LowerBound>
+      <d2:UpperBound>
+        <property:Value>14000</property:Value>
+      </d2:UpperBound>
+      <d2:DetailedGeometricModelElement>TRACE_0</d2:DetailedGeometricModelElement>
+    </foundation:CurveSet2d>
+    <foundation:ShapeElement id="TRACE_0_SHAPE_ELEMENT">
+      <pdm:ShapeElementType>FeatureShapeElement</pdm:ShapeElementType>
+      <pdm:DefiningShape>TRACE_0_CURVESET</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:StratumTechnology id="LAYER_0_TECHNOLOGY">
+      <pdm:TechnologyType>Design</pdm:TechnologyType>
+      <pdm:LayerPurpose>OtherSignal</pdm:LayerPurpose>
+      <pdm:LayerPositionType>Secondary</pdm:LayerPositionType>
+    </foundation:StratumTechnology>
+    <foundation:Stratum id="LAYER_0">
+      <foundation:Name>Bottom Layer</foundation:Name>
+      <pdm:ShapeElement>TRACE_0_SHAPE_ELEMENT</pdm:ShapeElement>
+      <pdm:StratumTechnology>LAYER_0_TECHNOLOGY</pdm:StratumTechnology>
+      <pdm:StratumType>DesignLayerStratum</pdm:StratumType>
+      <pdm:StratumSurfaceDesignation>SecondarySurface</pdm:StratumSurfaceDesignation>
+    </foundation:Stratum>
+    <foundation:CurveSet2d id="DIELECTRIC_1_CURVESET">
+      <pdm:ShapeDescriptionType>GeometricModel</pdm:ShapeDescriptionType>
+      <d2:LowerBound>
+        <property:Value>14000</property:Value>
+      </d2:LowerBound>
+      <d2:UpperBound>
+        <property:Value>140000</property:Value>
+      </d2:UpperBound>
+      <d2:DetailedGeometricModelElement>BOARD_OUTLINE_SHAPE_0_POLYLINE</d2:DetailedGeometricModelElement>
+    </foundation:CurveSet2d>
+    <foundation:ShapeElement id="DIELECTRIC_1_SHAPE_ELEMENT">
+      <pdm:ShapeElementType>FeatureShapeElement</pdm:ShapeElementType>
+      <pdm:DefiningShape>DIELECTRIC_1_CURVESET</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:StratumTechnology id="LAYER_1_TECHNOLOGY">
+      <pdm:TechnologyType>Design</pdm:TechnologyType>
+      <pdm:LayerPurpose>GenericLayer</pdm:LayerPurpose>
+      <pdm:LayerPositionType>Internal</pdm:LayerPositionType>
+    </foundation:StratumTechnology>
+    <foundation:Stratum id="LAYER_1">
+      <foundation:Name>Dielectric 1</foundation:Name>
+      <pdm:ShapeElement>DIELECTRIC_1_SHAPE_ELEMENT</pdm:ShapeElement>
+      <pdm:StratumTechnology>LAYER_1_TECHNOLOGY</pdm:StratumTechnology>
+      <pdm:StratumType>DesignLayerStratum</pdm:StratumType>
+      <pdm:StratumSurfaceDesignation>AverageSurface</pdm:StratumSurfaceDesignation>
+    </foundation:Stratum>
+    <foundation:Item id="DIELECTRIC_1">
+      <pdm:ItemType>single</pdm:ItemType>
+      <pdm:Identifier>
+        <foundation:SystemScope>ECAD_SYSTEM</foundation:SystemScope>
+        <foundation:Number>DIELECTRIC_1</foundation:Number>
+      </pdm:Identifier>
+      <pdm:Shape>LAYER_1</pdm:Shape>
+    </foundation:Item>
+    <foundation:Item id="DIELECTRIC_1_ASSEMBLY">
+      <pdm:ItemType>assembly</pdm:ItemType>
+      <pdm:Identifier>
+        <foundation:SystemScope>ECAD_SYSTEM</foundation:SystemScope>
+        <foundation:Number>DIELECTRIC_1_ASSEMBLY</foundation:Number>
+      </pdm:Identifier>
+      <pdm:ItemInstance id="DIELECTRIC_1_ASSEMBLY_INSTANCE">
+        <foundation:Name>BoardOutline</foundation:Name>
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key>
+            <foundation:SystemScope>ECAD_SYSTEM</foundation:SystemScope>
+            <foundation:ObjectName>THICKNESS</foundation:ObjectName>
+          </property:Key>
+          <property:Value>154000</property:Value>
+        </foundation:UserProperty>
+        <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+          <property:Key>
+            <foundation:SystemScope>ECAD_SYSTEM</foundation:SystemScope>
+            <foundation:ObjectName>TYPE</foundation:ObjectName>
+          </property:Key>
+          <property:Value>BOARDOUTLINE</property:Value>
+        </foundation:UserProperty>
+        <pdm:InstanceName>
+          <foundation:SystemScope>ECAD_SYSTEM</foundation:SystemScope>
+          <foundation:ObjectName>BoardOutline</foundation:ObjectName>
+        </pdm:InstanceName>
+        <pdm:Item>DIELECTRIC_1</pdm:Item>
+      </pdm:ItemInstance>
+      <pdm:BaseLine>
+        <property:Value>true</property:Value>
+      </pdm:BaseLine>
+    </foundation:Item>
+    <foundation:CurveSet2d id="PAD_TOP_LAYER_SHAPE_0_CURVESET">
+      <pdm:ShapeDescriptionType>GeometricModel</pdm:ShapeDescriptionType>
+      <d2:LowerBound>
+        <property:Value>140000</property:Value>
+      </d2:LowerBound>
+      <d2:UpperBound>
+        <property:Value>154000</property:Value>
+      </d2:UpperBound>
+    </foundation:CurveSet2d>
+    <foundation:ShapeElement id="PAD_TOP_LAYER_SHAPE_0_SHAPE_ELEMENT">
+      <pdm:ShapeElementType>FeatureShapeElement</pdm:ShapeElementType>
+      <pdm:DefiningShape>PAD_TOP_LAYER_SHAPE_0_CURVESET</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:CurveSet2d id="PAD_TOP_LAYER_SHAPE_1_CURVESET">
+      <pdm:ShapeDescriptionType>GeometricModel</pdm:ShapeDescriptionType>
+      <d2:LowerBound>
+        <property:Value>140000</property:Value>
+      </d2:LowerBound>
+      <d2:UpperBound>
+        <property:Value>154000</property:Value>
+      </d2:UpperBound>
+    </foundation:CurveSet2d>
+    <foundation:ShapeElement id="PAD_TOP_LAYER_SHAPE_1_SHAPE_ELEMENT">
+      <pdm:ShapeElementType>FeatureShapeElement</pdm:ShapeElementType>
+      <pdm:DefiningShape>PAD_TOP_LAYER_SHAPE_1_CURVESET</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:CurveSet2d id="PAD_TOP_LAYER_SHAPE_2_CURVESET">
+      <pdm:ShapeDescriptionType>GeometricModel</pdm:ShapeDescriptionType>
+      <d2:LowerBound>
+        <property:Value>140000</property:Value>
+      </d2:LowerBound>
+      <d2:UpperBound>
+        <property:Value>154000</property:Value>
+      </d2:UpperBound>
+    </foundation:CurveSet2d>
+    <foundation:ShapeElement id="PAD_TOP_LAYER_SHAPE_2_SHAPE_ELEMENT">
+      <pdm:ShapeElementType>FeatureShapeElement</pdm:ShapeElementType>
+      <pdm:DefiningShape>PAD_TOP_LAYER_SHAPE_2_CURVESET</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:CurveSet2d id="PAD_TOP_LAYER_SHAPE_3_CURVESET">
+      <pdm:ShapeDescriptionType>GeometricModel</pdm:ShapeDescriptionType>
+      <d2:LowerBound>
+        <property:Value>140000</property:Value>
+      </d2:LowerBound>
+      <d2:UpperBound>
+        <property:Value>154000</property:Value>
+      </d2:UpperBound>
+    </foundation:CurveSet2d>
+    <foundation:ShapeElement id="PAD_TOP_LAYER_SHAPE_3_SHAPE_ELEMENT">
+      <pdm:ShapeElementType>FeatureShapeElement</pdm:ShapeElementType>
+      <pdm:DefiningShape>PAD_TOP_LAYER_SHAPE_3_CURVESET</pdm:DefiningShape>
+    </foundation:ShapeElement>
+    <foundation:StratumTechnology id="LAYER_2_TECHNOLOGY">
+      <pdm:TechnologyType>Design</pdm:TechnologyType>
+      <pdm:LayerPurpose>OtherSignal</pdm:LayerPurpose>
+      <pdm:LayerPositionType>Primary</pdm:LayerPositionType>
+    </foundation:StratumTechnology>
+    <foundation:Stratum id="LAYER_2">
+      <foundation:Name>Top Layer</foundation:Name>
+      <pdm:ShapeElement>PAD_TOP_LAYER_SHAPE_0_SHAPE_ELEMENT</pdm:ShapeElement>
+      <pdm:ShapeElement>PAD_TOP_LAYER_SHAPE_1_SHAPE_ELEMENT</pdm:ShapeElement>
+      <pdm:ShapeElement>PAD_TOP_LAYER_SHAPE_2_SHAPE_ELEMENT</pdm:ShapeElement>
+      <pdm:ShapeElement>PAD_TOP_LAYER_SHAPE_3_SHAPE_ELEMENT</pdm:ShapeElement>
+      <pdm:StratumTechnology>LAYER_2_TECHNOLOGY</pdm:StratumTechnology>
+      <pdm:StratumType>DesignLayerStratum</pdm:StratumType>
+      <pdm:StratumSurfaceDesignation>PrimarySurface</pdm:StratumSurfaceDesignation>
+    </foundation:Stratum>
+    <foundation:ExternalSource id="DESIGN_SUMMARY_EXTERNAL_SOURCE">
+      <foundation:Name>IDX_DESIGN_SUMMARY</foundation:Name>
+      <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+        <property:Key>
+          <foundation:SystemScope>ECAD_SYSTEM</foundation:SystemScope>
+          <foundation:ObjectName>IDX_DESIGN_UNITS</foundation:ObjectName>
+        </property:Key>
+        <property:Value>IDX_DESIGN_SUMMARY_UNITS_AD_COORD</property:Value>
+      </foundation:UserProperty>
+      <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+        <property:Key>
+          <foundation:SystemScope>ECAD_SYSTEM</foundation:SystemScope>
+          <foundation:ObjectName>AD_EDMD_WORKFLOW_STATE</foundation:ObjectName>
+        </property:Key>
+        <property:Value>ReadyToSendOrReceiveChanges</property:Value>
+      </foundation:UserProperty>
+      <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+        <property:Key>
+          <foundation:SystemScope>ECAD_SYSTEM</foundation:SystemScope>
+          <foundation:ObjectName>AD_LAYERS_EXPORT_MODE</foundation:ObjectName>
+        </property:Key>
+        <property:Value>AllLayers</property:Value>
+      </foundation:UserProperty>
+      <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+        <property:Key>
+          <foundation:SystemScope>ECAD_SYSTEM</foundation:SystemScope>
+          <foundation:ObjectName>AD_COPPER_EXPORT_FEATURES</foundation:ObjectName>
+        </property:Key>
+        <property:Value>NoCopper</property:Value>
+      </foundation:UserProperty>
+      <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+        <property:Key>
+          <foundation:SystemScope>ECAD_SYSTEM</foundation:SystemScope>
+          <foundation:ObjectName>AD_COLLABORATION_FLAGS</foundation:ObjectName>
+        </property:Key>
+        <property:Value>BaselineUnitImperial</property:Value>
+      </foundation:UserProperty>
+      <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+        <property:Key>
+          <foundation:SystemScope>ECAD_SYSTEM</foundation:SystemScope>
+          <foundation:ObjectName>AD_COORDINATE_SYSTEM_TRANSLATION</foundation:ObjectName>
+        </property:Key>
+        <property:Value>(0, 0)</property:Value>
+      </foundation:UserProperty>
+      <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+        <property:Key>
+          <foundation:SystemScope>ECAD_SYSTEM</foundation:SystemScope>
+          <foundation:ObjectName>IDX_DESIGN_FILE</foundation:ObjectName>
+        </property:Key>
+        <property:Value>106015_D3C_Panel.PcbDoc</property:Value>
+      </foundation:UserProperty>
+      <foundation:UserProperty xsi:type="property:EDMDUserSimpleProperty">
+        <property:Key>
+          <foundation:SystemScope>ECAD_SYSTEM</foundation:SystemScope>
+          <foundation:ObjectName>IDX_DESIGN_REV</foundation:ObjectName>
+        </property:Key>
+        <property:Value>1</property:Value>
+      </foundation:UserProperty>
+    </foundation:ExternalSource>
+  </foundation:Body>
+  <foundation:ProcessInstruction xsi:type="computational:EDMDProcessInstructionSendInformation" />
+</foundation:EDMDDataSet>

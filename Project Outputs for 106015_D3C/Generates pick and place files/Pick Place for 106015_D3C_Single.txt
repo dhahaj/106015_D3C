@@ -1,0 +1,91 @@
+Altium Designer Pick and Place Locations
+C:\Users\dmh\Desktop\106015_ER_Delay_Egress_D3C\Project Outputs for 106015_D3C\Generates pick and place files\Pick Place for 106015_D3C_Single.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       05/12/18
+Time:       09:30
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mm
+
+Designator Center-X(mm) Center-Y(mm) Comment     Footprint                        Description                         Rotation 
+C1         22.9235      8.1153       10pf        CC1206_CC1206_NP(Primary)        ""                                  90       
+C2         38.7985      11.4935      "82 UF 35v" CAP100RP_CAP100RP(Primary)       ""                                  270      
+C4         39.2303      3.2385       .01         CC1206_CC1206(Primary)           Capacitor                           0        
+C5         52.3367      13.3985      .01         CC1206_CC1206(Primary)           Capacitor                           180      
+C6         15.3035      16.3703      .01         CC1206_CC1206_NP(Primary)        Capacitor                           90       
+C7         38.7985      57.0103      .1mfd       CC1206_CC1206_NP(Primary)        Capacitor                           90       
+C8         18.9103      51.4985      .1          CC1206_CC1206_NP(Primary)        Capacitor                           0        
+C9         27.1653      25.4635      .1          CC1206_CC1206_NP(Primary)        Capacitor                           0        
+C10        36.6903      26.0985      .1          CC1206_CC1206_NP(Primary)        Capacitor                           0        
+C11        76.1365      24.1935      "100 uF"    CAP300                           ""                                  180      
+C12        76.1365      43.2435      "100 uF"    CAP300                           "Nichicon UP2A101MHD"               180      
+C13        10.7315      5.9055       "220uF 50v" CAP200                           ""                                  180      
+CR1        17.2085      6.3500       60V         SMBJ                             "Tunnel Diode"                      270      
+CR2        67.3735      81.0895      {Value}     1N4004SMT                        Diode                               270      
+CR3        99.7585      80.8355      {Value}     1N4004SMT                        Diode                               270      
+D1         47.9425      7.6835       {Value}     1N4004SMT                        ""                                  0        
+D2         48.0695      3.2385       {Value}     1N4004SMT                        ""                                  180      
+D3         66.1035      5.1435       Blue        LED                              ""                                  180      
+D4         66.1035      14.0335      White       LED                              ""                                  180      
+D5         28.0035      29.9085      Green       LED                              ""                                  180      
+D6         28.0035      36.2585      Red         LED                              ""                                  180      
+D7         83.2485      5.1435       Yellow      LED                              ""                                  0        
+D8         86.0425      29.2735      1N4937      1N4004SMT                        ""                                  0        
+D9         86.0425      37.5285      1N4937      1N4004SMT                        ""                                  0        
+D10        64.5795      53.0225      Yellow      LED                              ""                                  180      
+JP1        11.4935      19.6215      ""          HDR_200SP_2C                     ""                                  180      
+JP2        11.6205      46.2915      ""          HDR_200SP_6C                     ""                                  180      
+JP3        94.0435      58.9915      ""          HDR_200SP_6C                     ""                                  180      
+JP4        94.0435      21.7805      ""          HDR_200SP_6C                     ""                                  180      
+JP5        27.2415      79.1845      ""          HDR_200_8C                       ""                                  270      
+JT1        19.1135      62.8015      TEST        JMP2                             ""                                  180      
+K1         58.4835      81.9785      ""          AZ_940                           ""                                  90       
+K2         90.8685      81.7245      ""          AZ_940                           ""                                  90       
+L1         25.7810      7.3660       173         PULSE_TH_P075                    ""                                  270      
+Q1         18.0975      40.8686      ""          SOT-23(GSD)_MOSFETN_SMT(Primary) "N-Channel, MOSFET Transistor"      180      
+Q2         92.5195      81.5594      ""          SOT-23(GSD)_MOSFETN_SMT(Primary) "N-Channel, MOSFET Transistor"      0        
+Q3         60.1345      82.5754      ""          SOT-23(GSD)_MOSFETN_SMT(Primary) "N-Channel, MOSFET Transistor"      0        
+R1         23.5585      19.7485      240k        RES_1206                         Resistor                            270      
+R2         22.9235      45.1485      100k        RES_1206                         Resistor                            270      
+R3         43.2435      44.5135      10M         RES_1206                         Resistor                            180      
+R4         61.0235      40.0685      1.5k        RES_1206                         Resistor                            180      
+R5         61.0235      34.9885      1.5k        RES_1206                         Resistor                            180      
+R6         62.2935      6.4135       1.5k        RES_1206                         Resistor                            90       
+R7         62.2935      14.0335      1.5k        RES_1206                         Resistor                            90       
+R8         19.1135      66.1035      10k         RES_1206                         Resistor                            0        
+R9         43.2435      48.3235      5.6M        RES_1206                         Resistor                            0        
+R10        48.7045      63.5635      100k        RES_1206                         Resistor                            270      
+R11        40.3225      21.6535      10k         RES_1206                         Resistor                            0        
+R12        36.7665      29.4005      10k         RES_1206                         Resistor                            180      
+R13        19.1135      54.6735      10k         RES_1206                         Resistor                            180      
+R14        38.1635      65.4685      100k        RES_1206                         Resistor                            0        
+R15        19.1135      58.4835      10k         RES_1206                         Resistor                            180      
+R16        19.7485      29.9085      330         RES_1206                         Resistor                            0        
+R17        19.7485      36.2585      330         RES_1206                         Resistor                            0        
+R18        34.9885      40.0685      330         RES_1206                         Resistor                            0        
+R19        34.9885      36.2585      330         RES_1206                         Resistor                            0        
+R20        90.8685      3.2385       1.5k        RES_1206                         Resistor                            0        
+R21        78.5495      54.6735      "10 Ohms"   RES600                           ""                                  180      
+R22        57.3405      53.1495      1.5k        RES_1206                         Resistor                            180      
+R23        79.1845      12.7635      "10 Ohms"   RES600                           ""                                  0        
+R24        47.1805      53.4035      100k        RES_1206                         Resistor                            270      
+R25        4.0005       54.5465      2.2kk       RES_1206                         Resistor                            270      
+T1         71.1835      69.2785      ""          HDR_381MSP_8C                    ""                                  270      
+U1         28.6385      6.2865       ""          S08                              ""                                  90       
+U2         47.3075      12.3698      ""          SOT-23                           "PNP Darlington Bipolar Transistor" 180      
+U3         19.7485      16.1290      SMBJ43      SMBJ                             ""                                  90       
+U4         29.9085      55.3085      ""          SOIC18                           ""                                  180      
+U5         74.5490      29.9085      ""          IPS511G                          ""                                  180      
+U6         14.6685      71.6280      6.3v        D0214                            ""                                  270      
+U7         49.2760      22.9235      ""          MCT9001                          ""                                  180      
+U8         74.5490      38.1635      ""          IPS511G                          ""                                  180      
+U9         49.2760      36.2585      ""          MCT9001                          ""                                  0        
+U10        4.6355       43.5610      ""          SFH6168                          ""                                  90       
+U11        9.6520       68.3895      7.5         D0214                            ""                                  0        
+U12        100.3935     54.7370      7.5         D0214                            ""                                  90       
+U13        100.3935     17.5260      7.5         D0214                            ""                                  90       
+U14        5.1435       62.4840      12v         D0214                            ""                                  90       
+X1         42.9895      59.1185      "8 Mhz"     RES_CER                          ""                                  90       

@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 9:36:25 AM On 12/5/2018
+
+Output: Copy of AutoCAD dwg/dxf File PCB
+Type  : AutoCAD PCB
+From  : PCB Document [106015_D3C_Panel.PcbDoc]
+   Generated File[106015_D3C_Panel.DWG]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 9:36:28 AM On 12/5/2018
